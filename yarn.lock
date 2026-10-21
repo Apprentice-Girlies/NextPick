@@ -1519,6 +1519,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lucide-react@npm:^1.60.0":
+  version: 1.60.0
+  resolution: "lucide-react@npm:1.60.0"
+  peerDependencies:
+    "@types/react": "*"
+    react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 10c0/710404ff9d6f29829866e369533c80a0163797412bd0f0af8595956f99544198e4a26800c93f5b1d8203aeb25fc2df7fddf583f7851fe40d697676f14aef5d39
+  languageName: node
+  linkType: hard
+
 "minimatch@npm:^10.2.2, minimatch@npm:^10.2.4, minimatch@npm:^10.2.5":
   version: 10.2.6
   resolution: "minimatch@npm:10.2.6"
@@ -1584,6 +1597,7 @@ __metadata:
     eslint-plugin-react-hooks: "npm:^7.1.1"
     eslint-plugin-react-refresh: "npm:^0.5.7"
     globals: "npm:^17.13.0"
+    lucide-react: "npm:^1.60.0"
     react: "npm:^19.3.1"
     react-dom: "npm:^19.3.1"
     typescript: "npm:~6.0.3"

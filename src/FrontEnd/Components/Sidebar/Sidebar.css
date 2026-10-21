@@ -33,13 +33,15 @@
 /* Navigation Links */
 
 .Sidebar nav a {
-    display: block;
+    display: flex;
     color: #9ca3af;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
     padding: 12px 14px;
     border-radius: 8px;
+    align-items: center;
+    gap: 14px;
 
     transition: background-color 0.2s, color 0.2s;
 }
@@ -73,4 +75,13 @@
 .main-content {
     flex: 1;
     min-width: 0;
+}
+
+.Sidebar nav a svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+    flex-shrink: 0;
+    color: inherit;
+    stroke: currentColor;
 }
