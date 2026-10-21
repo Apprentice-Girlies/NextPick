@@ -1,0 +1,76 @@
+
+.Sidebar {
+    width: 240px;
+    height: auto;
+    align-self: stretch;
+    background-color: #11151c;
+    border-right: 1px solid #252b35;
+    padding: 30px 16px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+/* NextPick Logo */
+
+.Sidebar h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 45px 12px;
+}
+
+/* Navigation Container */
+
+.Sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Navigation Links */
+
+.Sidebar nav a {
+    display: block;
+    color: #9ca3af;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 14px;
+    border-radius: 8px;
+
+    transition: background-color 0.2s, color 0.2s;
+}
+
+/* Hover Effect */
+
+.Sidebar nav a:hover {
+    background-color: #1e2530;
+    color: #ffffff;
+}
+
+/* Active Page */
+
+.Sidebar nav a:first-child {
+    background-color: #252d49;
+    color: #a5b4fc;
+}
+
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.app-layout {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+}
+
+.main-content {
+    flex: 1;
+    min-width: 0;
+}
