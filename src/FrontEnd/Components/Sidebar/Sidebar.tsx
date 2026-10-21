@@ -1,4 +1,4 @@
-import '/src/Frontend/Components/Sidebar/Sidebar.css'
+import './Sidebar.css'
 
 export default function Sidebar() {
     return (
