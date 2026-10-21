@@ -1,11 +1,9 @@
-
-import Index from "./Frontend/Pages/Index.tsx";
+import Index from "./FrontEnd/Pages/Index.tsx";
 
 function App() {
   return (
-
     <>
-      <Index></Index>
+      <Index/>
     </>
   )
 }
