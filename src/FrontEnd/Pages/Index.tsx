@@ -6,7 +6,6 @@ export default function Index() {
     return (
         <div className="app-layout">
             <Sidebar></Sidebar>
-        <div>
             <Header />
         </div>
     )
